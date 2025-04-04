@@ -4,7 +4,7 @@ A machine learning project to classify customer sentiments from e-commerce produ
 
 ## Overview
 - **Model**: Fine-tuned [DistilBERT](https://huggingface.co/distilbert-base-uncased) for sentiment classification.
-- **Dataset**: 10,000 Amazon product reviews, mapped from 1-5 star ratings to sentiment labels (1-2: Negative, 3: Neutral, 4-5: Positive).
+- **Dataset**: 20,000 Amazon product reviews, mapped from 1-5 star ratings to sentiment labels (1-2: Negative, 3: Neutral, 4-5: Positive).
 - **Performance**: Achieved **87.1% validation accuracy** after 3 epochs.
 - **Tech Stack**: Python, Hugging Face Transformers, PyTorch, Google Colab (free GPU).
 - **Use Case**: Real-time sentiment analysis for e-commerce platforms, customer insights, or automated review moderation.
